@@ -1,4 +1,4 @@
-# skylit-ai
+# Skylit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-skylit-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://skylit.ai/
+Skylit provides AI‑driven market intelligence and trading tools for professional and retail traders. Their platform offers real‑time streaming data, AI‑powered analysis modules such as Nexus, Flowseeker, Heatseeker, Atlas, and Talon, and a suite of services including session replay, dedicated support, and data licensed from NASDAQ, CBOE, and OPRA. Users can start for free without a credit card, access historical market sessions, and leverage hyperintelligence to make informed trading decisions across futures, options, and equities.
+
+**Areas:** FinTech · AI · Trading · MarketData · Platform
+
+## Skylit on APIs.io
+
+Everything profiled for Skylit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/skylit-ai/](https://apis.io/providers/skylit-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Skylit Account API](https://apis.io/apis/skylit-ai/skylit-ai-account-api/) — The Account API from Skylit — 1 operation(s) for account.
+- [Skylit Heatmap API](https://apis.io/apis/skylit-ai/skylit-ai-heatmap-api/) — The Heatmap API from Skylit — 6 operation(s) for heatmap.
+- [Skylit Meta API](https://apis.io/apis/skylit-ai/skylit-ai-meta-api/) — The Meta API from Skylit — 2 operation(s) for meta.
+- [Skylit Tempest API](https://apis.io/apis/skylit-ai/skylit-ai-tempest-api/) — Tempest, Skylit's volatility suite: implied vol per symbol (SVX), term structure, expected-move cones, sigma move tracking, surface and skew, call/put…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Skylit Agentic Access](https://apis.io/agentic-access/skylit-ai/skylit-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DailyStat](https://apis.io/schemas/skylit-ai/skylit-ai-daily-stat/)
+- [LevelsSummary](https://apis.io/schemas/skylit-ai/skylit-ai-levels-summary/)
+- [Meta](https://apis.io/schemas/skylit-ai/skylit-ai-meta/)
+- [SymbolHeatmap](https://apis.io/schemas/skylit-ai/skylit-ai-symbol-heatmap/)
+- [SymbolRange](https://apis.io/schemas/skylit-ai/skylit-ai-symbol-range/)
+- [VolHistoryResponse](https://apis.io/schemas/skylit-ai/skylit-ai-vol-history-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Skylit Ai Context](https://apis.io/jsonld/skylit-ai/skylit-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Skylit API Rules](https://apis.io/rules/skylit-ai/skylit-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Skylit Authentication](https://apis.io/security/skylit-ai/skylit-ai-authentication/)
+- [Skylit Domain Security](https://apis.io/security/skylit-ai/skylit-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Skylit Plans Pricing](https://apis.io/plans/skylit-ai/skylit-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Skylit Rate Limits](https://apis.io/rate-limits/skylit-ai/skylit-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.skylit.ai/)
+- [Documentation](https://docs.skylit.ai/)
+- [Getting started](https://www.skylit.ai/docs/guides/heatseeker)
+- [API reference](https://www.skylit.ai/docs/api-reference/tempest/implied-volatility-svx-per-symbol)
+- [Pricing](https://www.skylit.ai/pricing)
+- [Sign up](https://app.skylit.ai/sign-up?after=stages)
+- [Support](https://app.skylit.ai/support)
+- [Changelog](https://www.skylit.ai/changelog)
+- [Blog](https://www.skylit.ai/learn)
+- [Terms of service](https://www.skylit.ai/terms)
+- [Privacy policy](https://www.skylit.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 60.6** — strong · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 60.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 40.0 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 51.5 |
+
+**Agent readiness 63.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | platform (partial credit) |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 21.6** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/skylit-ai/](https://apis.io/providers/skylit-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Skylit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/skylit-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
